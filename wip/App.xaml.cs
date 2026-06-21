@@ -801,7 +801,7 @@ Click on OK to terminate the program",
             icons.Add(ToBitmapImage(SystemIcons.Hand.ToBitmap()));
             icons.Add(ToBitmapImage(SystemIcons.Information.ToBitmap()));
 
-            Video.Load();
+            // Video.Load();
             var nw = new CustomDialogWindow("a", "a", new List<string>() { "Yes" }, System.Windows.Forms.MessageBoxIcon.Error);
             nw.Show();
             Thread.Sleep(1000);
@@ -810,17 +810,16 @@ Click on OK to terminate the program",
 
             var lines = File.ReadAllLines("Label Track.txt");
 
-
-
-
+            /*
             Thread tht = new Thread(() =>
             {
                 Video.Play();
             });
+            */
 
             SoundPlayer sp = new SoundPlayer("NormalizedMusic.wav");
             //NOP(11/1000.0);
-            tht.Start();
+            // tht.Start();
 
             var cursor = new System.Drawing.Point(50, 50);
             var i = 0;
@@ -921,7 +920,6 @@ Click on OK to terminate the program",
 
                     else if (data.InstructionType == InstructionType.Time)
                     {
-                        Video.stop = true;
                         Thread.Sleep(1500);
 
                         Environment.Exit(0);
